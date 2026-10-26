@@ -5,5 +5,6 @@
     <type>Text</type>
     <length>80</length>
     <required>false</required>
+   <inlineHelpText>Sales region for this account, such as APAC or EMEA</inlineHelpText>
     <description>Sales region for the account</description>
 </CustomField>
