@@ -1,4 +1,57 @@
+# Salesforce CLI / SFDX
 .sf/
 .sfdx/
-node_modules/
+.localdevserver/
+**/.sfdx/
+**/.sf/
+deploy-options.json
+
+# Logs
+*.log
 resume.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node
+node_modules/
+coverage/
+.npm/
+.eslintcache
+
+# LWC Jest / test output
+**/__tests__/**/__snapshots__/*.obsolete
+test-results/
+junit.xml
+
+# Credentials and secrets (never commit)
+*.key
+*.pem
+*.p12
+*.crt
+*.env
+.env
+.env.*
+**/sfdx-auth-url*.txt
+authfile*.txt
+server.key
+*.jwt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Temp / build output
+tmp/
+temp/
+dist/
+build/
+.history/
