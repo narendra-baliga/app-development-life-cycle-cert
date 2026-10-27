@@ -26,7 +26,7 @@
                 <behavior>Edit</behavior>
                 <field>AccountNumber</field>
             </layoutItems>
-	    <layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Region__c</field>
             </layoutItems>
@@ -45,6 +45,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Tier__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
